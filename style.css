@@ -229,6 +229,7 @@ ion-icon:hover {
 }
 
 .serviceItem {
+  z-index: 99;
   display: block;
   align-items: bottom;
   justify-content: center;
@@ -272,4 +273,20 @@ ion-icon:hover {
   background-color: #00000080;
   box-shadow: 20px 20px 20px #000000;
   color: #ee600a !important;
+}
+
+.credits {
+  z-index: 0;
+  color: #ffffff40;
+  position: fixed;
+  bottom: 2rem;
+}
+
+.credits a {
+  color: #ffffff80;
+  transition: 0.3s;
+}
+
+.credits a:hover {
+  color: rgba(233, 19, 145, 1);
 }
