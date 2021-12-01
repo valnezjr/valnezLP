@@ -178,9 +178,11 @@ ion-icon:hover {
 }
 
 .profilePic {
-  position: relative;
   width: 550px;
   padding-bottom: 8rem;
+}
+.image {
+  position: relative;
 }
 
 .downloadButton {
@@ -190,8 +192,8 @@ ion-icon:hover {
   align-items: center;
   justify-content: space-between;
   font-size: 1.5rem;
-  top: 60vh;
-  right: 5vw;
+  bottom: 15rem;
+  right: 0rem;
   color: white;
   background-color: rgba(233, 19, 145, 1);
   width: 200px;
