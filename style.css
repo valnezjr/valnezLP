@@ -85,7 +85,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #8c8c8c60;
+  background-color: #00000060;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   color: white;
