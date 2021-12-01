@@ -234,6 +234,5 @@ ion-icon:hover {
 }
 
 .serviceItem:hover {
-  width: 320px;
-  height: 320px;
+  background-color: #00000080;
 }
