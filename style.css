@@ -91,8 +91,11 @@ header {
   -webkit-backdrop-filter: blur(12px);
   color: white;
   height: 5rem;
+  transition: 0.3s;
 }
-
+header:hover {
+  background-color: #00000010;
+}
 .background {
   position: fixed;
   width: 100%;
@@ -283,7 +286,7 @@ ion-icon:hover {
 }
 
 .credits a {
-  color: #ffffff80;
+  color: #ffffff60;
   transition: 0.3s;
 }
 
