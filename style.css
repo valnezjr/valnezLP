@@ -148,8 +148,17 @@ ion-icon:hover {
   text-align: center;
   justify-content: space-around;
 }
-
+#mySkills .text:hover {
+  background: rgb(238, 96, 10);
+  background: linear-gradient(
+    220deg,
+    rgba(94, 162, 239, 1) 0%,
+    rgba(233, 19, 145, 1) 50%,
+    rgba(238, 96, 10, 1) 100%
+  );
+}
 .text {
+  background: none;
   text-align: start;
   position: relative;
   color: white;
@@ -162,6 +171,7 @@ ion-icon:hover {
   width: 800px;
   box-shadow: 20px 20px 20px #00000080;
   cursor: default;
+  transition: 0.5s;
 }
 
 .social {
